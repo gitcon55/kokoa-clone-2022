@@ -1,0 +1,26 @@
+.settings-screen {
+  padding: 0px var(--horizontal-space);
+  margin-top: 50px;
+}
+
+.settings-list {
+  margin-top: 10px;
+}
+
+.settings-setting {
+  padding: 20px 0px;
+  display: flex;
+
+  font-size: 22px;
+  opacity: 0.6;
+}
+
+.settings-setting__icon {
+  margin-right: 15px;
+}
+
+.settings-setting__info {
+  opacity: 0.4;
+  margin-left: auto;
+  font-size: 20px;
+}

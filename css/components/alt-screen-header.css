@@ -1,0 +1,28 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.alt-screen__column {
+  width: 33%;
+}
+
+.alt-screen__column h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alt-screen__column:first-child {
+  margin-right: auto;
+}
+.alt-screen__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-screen__column:last-child i:last-child {
+  margin-left: 10px;
+}
